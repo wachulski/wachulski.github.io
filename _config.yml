@@ -1,0 +1,109 @@
+# --- General options --- #
+
+# url is the full website URL
+# baseurl is the website's URL without the hostname
+url: "https://wachulski.github.io"
+baseurl: ""
+
+title: Marcin Wachulski's blog
+description: on software engineering and programming languages
+
+# --- Navigation bar options --- #
+
+navbar-links:
+  About me: "aboutme"
+
+avatar: "/img/mw-logo.png"
+
+# --- Background colour/image options --- #
+
+navbar-col: "#F5F5F5"
+navbar-text-col: "#404040"
+navbar-children-col: "#F5F5F5"
+page-col: "#FFFFFF"
+link-col: "#008AFF"
+hover-col: "#0085A1"
+footer-col: "#F5F5F5"
+footer-text-col: "#777777"
+footer-link-col: "#404040"
+
+# navbar-img: "/img/bgimage.png"
+# footer-img: "/img/bgimage.png"
+# page-img: "/img/bgimage.png"
+
+# --- Footer options --- #
+
+author:
+  name: Marcin Wachulski
+
+# see also: _data/SocialNetworks.yml
+social-network-links:
+  rss: true
+  email: marcin@wachulski.pl
+  github: wachulski
+  twitter: marcinwachulski
+  linkedin: marcinwachulski
+
+share-links-active:
+  twitter: true
+  facebook: true
+  google: false
+  linkedin: true
+
+url-pretty: "wachulski.github.io"
+
+gtag: "UA-20435699-4"
+disqus: "techblog-wachulski"
+
+# Excerpt Word Length
+# Truncates the excerpt to the specified number of words on the index page
+excerpt_length: 50
+
+# Character used to separate site title and description in HTML document title
+# and RSS feed title
+title-separator: "-"
+
+# Output options (more information on Jekyll's site)
+timezone: "Europe/Warsaw"
+markdown: kramdown
+highlighter: rouge
+permalink: /:year-:month-:day-:title/
+paginate: 5
+
+kramdown:
+  input: GFM
+
+# Default YAML values (more information on Jekyll's site)
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true  # add comments to all blog posts
+      social-share: true # add social media sharing buttons to all blog posts
+  -
+    scope:
+      path: "" # all files
+    values:
+      layout: "page"
+      show-avatar: true
+
+# Use tags index page and make tags on each post clickable
+link-tags: true
+
+# Exclude these files from production site
+exclude:
+  - CHANGELOG.md
+  - CNAME
+  - Dockerfile
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - Vagrantfile
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
