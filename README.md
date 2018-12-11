@@ -1,6 +1,6 @@
 # The blog 
 
-Marcin Wachulski on software engineering and programming languages in a series of blog posts. See it here: https://wachulski.github.io.
+Marcin Wachulski on software engineering and programming languages in a series of blog posts. See it here: https://blog.wachulski.pl.
 
 # Contributing
 

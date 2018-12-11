@@ -2,7 +2,7 @@
 
 # url is the full website URL
 # baseurl is the website's URL without the hostname
-url: "https://wachulski.github.io"
+url: "https://blog.wachulski.pl"
 baseurl: ""
 
 title: Marcin Wachulski's blog
@@ -50,7 +50,7 @@ share-links-active:
   google: false
   linkedin: true
 
-url-pretty: "wachulski.github.io"
+url-pretty: "blog.wachulski.pl"
 
 gtag: "UA-20435699-4"
 disqus: "techblog-wachulski"
