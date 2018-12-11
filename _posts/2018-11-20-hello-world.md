@@ -9,5 +9,7 @@ And what you could read here? I am a professional software engineer, devoted to 
 
 My name is Marcin Wachulski (Mar-seen Va-hull-ski) and I dwell in Poland with my beloved wife and great children.
 
-Enjoy reading, arguing, borrowing and sharing!
+![Marcin Wachulski](/img/me-avatar.jpeg)
+{: style="text-align:center"}
 
+Enjoy reading, arguing, borrowing and sharing!
